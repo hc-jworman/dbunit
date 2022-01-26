@@ -1,5 +1,5 @@
 {
-    "name": "phpunit/dbunit",
+    "name": "jworman/dbunit",
     "description": "DbUnit port for PHP/PHPUnit to support database interaction testing.",
     "type": "library",
     "keywords": [
@@ -20,12 +20,9 @@
         "issues": "https://github.com/sebastianbergmann/dbunit/issues",
         "irc": "irc://irc.freenode.net/phpunit"
     },
-    "repositories": [
-        {"type": "github", "url": "https://github.com/hc-jworman/phpunit.git"}
-    ],
     "require": {
         "php": ">=5.3.3",
-        "zf1s/phpunit": "dev-Make_Php_8.1_Compatiable",
+        "jworman/phpunit": "1.0.0",
         "symfony/yaml": "~2.1",
         "ext-pdo": "*",
         "ext-simplexml": "*"
