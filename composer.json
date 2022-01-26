@@ -20,9 +20,12 @@
         "issues": "https://github.com/sebastianbergmann/dbunit/issues",
         "irc": "irc://irc.freenode.net/phpunit"
     },
+    "repositories": [
+        {"type": "github", "url": "https://github.com/hc-jworman/phpunit.git"}
+    ],
     "require": {
         "php": ">=5.3.3",
-        "phpunit/phpunit": "~3.7|~4.0",
+        "zf1s/phpunit": "dev-Make_Php_8.1_Compatiable",
         "symfony/yaml": "~2.1",
         "ext-pdo": "*",
         "ext-simplexml": "*"
